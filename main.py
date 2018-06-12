@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import *
 class Application(QWidget):
 
     def __init__(self):
-        # we initialize the super class of the class we inherit(Qwidget)
+        # we initialize the class we inherit(Qwidget)
         super().__init__()
         self.dot_use = False
         self.screen = QLineEdit()
